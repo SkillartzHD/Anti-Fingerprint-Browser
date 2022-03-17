@@ -1,0 +1,281 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Magick.NET-Q8-AnyCPU/7.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard20/Magick.NET-Q8-AnyCPU.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard20/Magick.NET-Q8-AnyCPU.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/Magick.NET-Q8-x64.Native.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/Magick.NET-Q8-x64.Native.dll.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win7-x64/native/Magick.NET-Q8-x64.Native.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/Magick.NET-Q8-x86.Native.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Noksa.WebDriver.ScreenshotsExtensions/0.1.5.4": {
+        "type": "package",
+        "dependencies": {
+          "Magick.NET-Q8-AnyCPU": "7.9.0",
+          "Newtonsoft.Json": "11.0.1",
+          "Selenium.Support": "3.8.0",
+          "Selenium.WebDriver": "3.8.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/WDSE.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WDSE.dll": {}
+        }
+      },
+      "Selenium.Support/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.8.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/4.0.0-alpha07": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/WebDriver.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Magick.NET-Q8-AnyCPU/7.9.0": {
+      "sha512": "0YtQQDC6q9YoqT8yhajiiGtOkIe50GpMwi6iUAX457PM/5R7uRTPp0845W2JRsUyqfha39rXA4egdP0cP0wszw==",
+      "type": "package",
+      "path": "magick.net-q8-anycpu/7.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Copyright.txt",
+        "Readme.txt",
+        "lib/net20/Magick.NET-Q8-AnyCPU.dll",
+        "lib/net20/Magick.NET-Q8-AnyCPU.xml",
+        "lib/net40/Magick.NET-Q8-AnyCPU.dll",
+        "lib/net40/Magick.NET-Q8-AnyCPU.xml",
+        "lib/netstandard13/Magick.NET-Q8-AnyCPU.dll",
+        "lib/netstandard13/Magick.NET-Q8-AnyCPU.xml",
+        "lib/netstandard20/Magick.NET-Q8-AnyCPU.dll",
+        "lib/netstandard20/Magick.NET-Q8-AnyCPU.xml",
+        "magick.net-q8-anycpu.7.9.0.nupkg.sha512",
+        "magick.net-q8-anycpu.nuspec",
+        "runtimes/linux-x64/native/Magick.NET-Q8-x64.Native.dll.so",
+        "runtimes/osx-x64/native/Magick.NET-Q8-x64.Native.dll.dylib",
+        "runtimes/win7-x64/native/Magick.NET-Q8-x64.Native.dll",
+        "runtimes/win7-x86/native/Magick.NET-Q8-x86.Native.dll"
+      ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Noksa.WebDriver.ScreenshotsExtensions/0.1.5.4": {
+      "sha512": "c6GE1PxegmDzUZS0agSbGJXMseHMctYvEMP+LWooBhuFioK7lilssLmMdVbpSQ4h3vXYDMj/Av+tJ/iUN6w31A==",
+      "type": "package",
+      "path": "noksa.webdriver.screenshotsextensions/0.1.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/WDSE.dll",
+        "lib/net46/WDSE.dll",
+        "lib/netstandard2.0/WDSE.dll",
+        "noksa.webdriver.screenshotsextensions.0.1.5.4.nupkg.sha512",
+        "noksa.webdriver.screenshotsextensions.nuspec"
+      ]
+    },
+    "Selenium.Support/3.8.0": {
+      "sha512": "dUjtHRqHt/JLcNodk/IvydquP15m534BMT4Zcq2BM9XYI4XCKX9iJR2qFWAHdv0IYUicZq+w5EsMzceyAe3FUw==",
+      "type": "package",
+      "path": "selenium.support/3.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.Support.dll",
+        "lib/net35/WebDriver.Support.xml",
+        "lib/net40/WebDriver.Support.dll",
+        "lib/net40/WebDriver.Support.xml",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net45/WebDriver.Support.xml",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.xml",
+        "selenium.support.3.8.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/4.0.0-alpha07": {
+      "sha512": "vEfFli2J+Tq4pXHzuy0eV1mlit3BcqVGcpbJd9sPliCSnTWwujfVIzTVpKdDeJqeRnWjAnR3hLjYLhfT5K28pg==",
+      "type": "package",
+      "path": "selenium.webdriver/4.0.0-alpha07",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/WebDriver.dll",
+        "lib/net45/WebDriver.xml",
+        "lib/net46/WebDriver.dll",
+        "lib/net46/WebDriver.xml",
+        "lib/net47/WebDriver.dll",
+        "lib/net47/WebDriver.xml",
+        "lib/net48/WebDriver.dll",
+        "lib/net48/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.1/WebDriver.dll",
+        "selenium.webdriver.4.0.0-alpha07.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Noksa.WebDriver.ScreenshotsExtensions >= 0.1.5.4",
+      "Selenium.WebDriver >= 4.0.0-alpha07"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\zanyx\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\zanyx\\Desktop\\SeleniumTest\\SeleniumTest\\SeleniumTest.csproj",
+      "projectName": "SeleniumTest",
+      "projectPath": "C:\\Users\\zanyx\\Desktop\\SeleniumTest\\SeleniumTest\\SeleniumTest.csproj",
+      "packagesPath": "C:\\Users\\zanyx\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zanyx\\Desktop\\SeleniumTest\\SeleniumTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\zanyx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Noksa.WebDriver.ScreenshotsExtensions": {
+            "target": "Package",
+            "version": "[0.1.5.4, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.0.0-alpha07, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

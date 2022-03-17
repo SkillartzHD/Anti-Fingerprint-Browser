@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rzou2e8inEOS0WtF6oKlB9D1slhoCHdUAJPvIwgDCAVrg3E1CLLBVSgwkxIzQ97oyLLoBG21Jco6M7fE4uo1Cg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zanyx\\Desktop\\SeleniumTest\\SeleniumTest\\SeleniumTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zanyx\\.nuget\\packages\\magick.net-q8-anycpu\\7.9.0\\magick.net-q8-anycpu.7.9.0.nupkg.sha512",
+    "C:\\Users\\zanyx\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\zanyx\\.nuget\\packages\\noksa.webdriver.screenshotsextensions\\0.1.5.4\\noksa.webdriver.screenshotsextensions.0.1.5.4.nupkg.sha512",
+    "C:\\Users\\zanyx\\.nuget\\packages\\selenium.support\\3.8.0\\selenium.support.3.8.0.nupkg.sha512",
+    "C:\\Users\\zanyx\\.nuget\\packages\\selenium.webdriver\\4.0.0-alpha07\\selenium.webdriver.4.0.0-alpha07.nupkg.sha512",
+    "C:\\Users\\zanyx\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
